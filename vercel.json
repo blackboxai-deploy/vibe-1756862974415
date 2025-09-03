@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "pnpm install",
+  "env": {
+    "PNPM_FLAGS": "--shamefully-hoist"
+  }
+}
